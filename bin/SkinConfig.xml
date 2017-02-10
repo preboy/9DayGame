@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- skin config file -->
+<!-- id(), type(the type of skin); -->
+<!-- -->
+
+<SkinConf>
+	
+	<!-- the simplest image -->
+	<image type="1">
+		<skin id="100" TextureID="3" posX="0" posY="0" width="0" height="0" />
+		<skin id="101" TextureID="14" posX="0" posY="0" width="0" height="0" />
+	</image>
+
+	<!-- 9 grid -->
+	<Grid9 type="2" >
+		<skin id="200" TextureID="8">
+			<p1 posX="0" 	posY="0" 	width="25" height="19" />  	<!--  -->
+			<p2 posX="26" 	posY="0" 	width="25" height="19" />	<!--  -->
+			<p3 posX="52" 	posY="0" 	width="25" height="19" />  	<!--  -->
+			<p4 posX="0" 	posY="20" 	width="25" height="15" />  	<!--  -->
+			<p5 posX="26" 	posY="20" 	width="25" height="15" />	<!-- -->
+			<p6 posX="52" 	posY="20" 	width="25" height="15" />  	<!-- -->
+			<p7 posX="0" 	posY="36" 	width="25" height="18" />  	<!-- -->
+			<p8 posX="26" 	posY="36" 	width="25" height="18" />	<!-- -->
+			<p9 posX="52" 	posY="36" 	width="25" height="18" />  	<!-- -->
+		</skin>
+	</Grid9>
+	
+	<!-- 3 grid -->
+	<Grid3 type="3">
+		<skin id="300" TextureID="7">
+			<p1 posX="0" posY="0" width="16" height="32" />  	<!--  -->
+			<p2 posX="20" posY="0" width="16" height="32" />	<!--  -->
+			<p3 posX="71" posY="0" width="16" height="32" />  	<!--  -->
+		</skin>
+		<skin id="301" TextureID="7">
+			<p1 posX="90"  posY="0" width="20" height="43" />  	<!--  -->
+			<p2 posX="110" posY="0" width="20" height="43" />	<!--  -->
+			<p3 posX="157" posY="0" width="20" height="43" />  	<!--  -->
+		</skin>
+	</Grid3>
+	
+	<!-- progressctrl skin id -->
+	<ProgressCtrl type="4">
+		<skin id="400" TextureID="9">
+			<background>
+				<p1 posX="0"  posY="0" width="20" height="60" />  	<!--  -->
+				<p2 posX="21" posY="0" width="20" height="60" />	<!--  -->
+				<p3 posX="98" posY="0" width="20" height="60" />  	<!--  -->
+			</background>
+			<foreground>
+				<p4 posX="121" posY="0" width="20" height="60" />  	<!--  -->
+				<p5 posX="141" posY="0" width="20" height="60" />	<!--  -->
+				<p6 posX="195" posY="0" width="20" height="60" />  	<!--  -->
+			</foreground>
+		</skin>
+		<skin id="401" TextureID="10">
+			<background>
+				<p1 posX="74"  posY="83" width="32" height="39" />  	<!--  -->
+				<p2 posX="102" posY="83" width="32" height="39" />	<!--  -->
+				<p3 posX="507" posY="83" width="32" height="39" />  	<!--  -->
+			</background>
+			<foreground>
+				<p4 posX="74" posY="134" width="32" height="35" />  	<!--  -->
+				<p5 posX="102" posY="134" width="32" height="35" />	<!--  -->
+				<p6 posX="507" posY="134" width="32" height="35" />  	<!--  -->
+			</foreground>
+		</skin>
+	</ProgressCtrl>
+
+	<Button type="5">
+		<skin id="500" TextureID="1" posX="0" posY="0" width="129" height="30" />
+	</Button>
+	
+	<ListCtrl type="6">
+		<Skin id="600" TextureID="9">
+			<back posX="195" posY="0" width="20" height="60" />
+			<item posX="195" posY="0" width="20" height="60" />
+		</Skin>
+	</ListCtrl>
+	
+	<CheckBox type="7">
+		<Skin id="700" TextureID="9">
+			<unkonwn  	posX="574" posY="251" width="27" height="27" />
+			<unselect   posX="605" posY="251" width="27" height="27" />
+			<select 	posX="635" posY="251" width="27" height="27" />
+			<disable  	posX="666" posY="251" width="27" height="27" />
+		</Skin>
+	</CheckBox>
+	
+	<Slider type="8">
+		<Skin id="800" TextureID="12">
+			<p1 posX="385"  posY="216" width="26" height="38" />
+			<p2 posX="385"  posY="325" width="26" height="10" />
+			<p3 posX="385"  posY="345" width="26" height="38" />
+			<p4 posX="420"  posY="264" width="24" height="14" />
+			<p5 posX="420"  posY="276" width="24" height="14" />
+			<p6 posX="420"  posY="300" width="24" height="14" />
+		</Skin>
+		<Skin id="801" TextureID="13">
+			<p1 posX="155"  posY="18" width="27" height="14" />
+			<p2 posX="155"  posY="154" width="27" height="23" />
+			<p3 posX="155"  posY="460" width="27" height="13" />
+			<p4 posX="420"  posY="264" width="24" height="14" />
+			<p5 posX="420"  posY="276" width="24" height="14" />
+			<p6 posX="420"  posY="300" width="24" height="14" />
+		</Skin>
+	</Slider>
+</SkinConf>

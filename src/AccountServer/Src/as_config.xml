@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+	<AS_DBFactory server="127.0.0.1" dbase="Account_DB" user="root" pass="zhang" />
+	<AS_TCP_Server_GS listen_ip="192.168.0.123" listen_port="19850" />
+</root>

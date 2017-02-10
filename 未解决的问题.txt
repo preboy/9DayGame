@@ -1,0 +1,5 @@
+9:15 2013/6/21
+RenderLayer下DrawLineTrip、DrawTriangleTrip、DrawPoints每次都创建IVertexBuffer，会造成内存慢慢涨上去。
+其中，DrawTextureRect存在两相的问题，但已解决，可参照。
+
+TextureDX11中，Create处分配了1024*768*4内存，未释放，

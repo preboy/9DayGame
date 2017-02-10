@@ -1,0 +1,14 @@
+1	Res/DDS/button.dds
+2	Res/DDS/bu2.dds
+3	Res/DDS/UIForm.dds
+4	Res/LogoBack.dds
+5	Res/LoginBack.dds
+6	Res/dxt5.dds
+7	Res/3grid.jpg
+8	Res/9grid.png
+9	Res/ProgressCtrl.png
+10	Res/PC1.png
+11	Res/3.png
+12	Res/slider.png
+13	Res/slider.jpg
+14  Res/DDS/b.jpg

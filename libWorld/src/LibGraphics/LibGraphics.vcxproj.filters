@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Src">
+      <UniqueIdentifier>{7b835457-f0dc-4515-92f1-395a22d0f6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Src\GUI">
+      <UniqueIdentifier>{04049883-652f-41c7-9165-a4e139030e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Src\DX11">
+      <UniqueIdentifier>{a44209c8-61b2-431b-a006-fce88e9717be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\BlendStateManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\BufferManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\MultiPoint.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\RasterizerManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\RenderDevice_DX11.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\samplerManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\shader.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\shaderManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\TextureDX11.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\VertexBuffer.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DX11\VertexLayoutManager.h">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\animation.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Buffer.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CursorManager.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DWriteFont.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\font.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\fontManager.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameStateManger.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GuiManager.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Image.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IState.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\math.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderDevice.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderLayer.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderTexture.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResLoaderThread.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResManager.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureFont.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WinGameApp.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\button.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\CheckBox.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\control.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\EditBox.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\form.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\ListCtrl.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\ProgressCtrl.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\Skin.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\Slider.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUI\Static.cpp">
+      <Filter>源文件\Src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\BlendStateManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\BufferManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\MultiPoint.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\RasterizerManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\RenderDevice_DX11.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\samplerManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\shader.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\shaderManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\TextureDX11.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\VertexBuffer.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11\VertexLayoutManager.cpp">
+      <Filter>源文件\Src\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stringFormat.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextureWraper.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationEditor.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LibGraphics.cpp">
+      <Filter>源文件\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

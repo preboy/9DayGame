@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- 登陆界面 -->
+<XmlForm Name="LoginUI" PosX="200" PosY="200" Width="320" Height="300" Drag="true" SkinID="200">
+	<Button  Name="btOK" PosX="60" PosY="100" Width="129" Height="30" SkinID="500" Text="取 消" Color="0xFF0f00FF"></Button>
+	<EditBox Name="user" PosX="60" PosY="140" Width="200" Height="30" SkinID="301" Color="0xFF000000"></EditBox>
+	<!-- ListCtrl Name="list1" PosX="60" PosY="180" Width="200" Height="230" SkinID="200" ItemSkinID="300" ></ListCtrl -->
+	<CheckBox Name="ch1" PosX="60" PosY="180" Width="200" Height="30" SkinID="700" Text="我的第一个复选框" Color="0xFF000000"></CheckBox>
+	<Slider Name="Slder1" PosX="280" PosY="100" Width="26" Height="200" SkinID="801"></Slider>
+</XmlForm>

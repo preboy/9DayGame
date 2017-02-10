@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+  <DB_DBFactory server="192.168.0.123" dbase="9tian" user="sa" pass="zhang" />
+  <DB_TCP_Server_LS listen_ip="192.168.0.123" listen_port="19852" />
+  <DB_TCP_Client_GS server_ip="192.168.0.123" server_port="19851" />
+</root>

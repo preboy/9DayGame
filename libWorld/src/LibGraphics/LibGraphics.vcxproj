@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64235399-B609-4548-92D3-A65261C76C81}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LibGraphics</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\Lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../Include;$(DXSDK_DIR)Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\DX11\BlendStateManager.h" />
+    <ClInclude Include="Src\DX11\BufferManager.h" />
+    <ClInclude Include="Src\DX11\MultiPoint.h" />
+    <ClInclude Include="Src\DX11\RasterizerManager.h" />
+    <ClInclude Include="Src\DX11\RenderDevice_DX11.h" />
+    <ClInclude Include="Src\DX11\samplerManager.h" />
+    <ClInclude Include="Src\DX11\shader.h" />
+    <ClInclude Include="Src\DX11\shaderManager.h" />
+    <ClInclude Include="Src\DX11\TextureDX11.h" />
+    <ClInclude Include="Src\DX11\VertexBuffer.h" />
+    <ClInclude Include="Src\DX11\VertexLayoutManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\animation.cpp" />
+    <ClCompile Include="Src\AnimationEditor.cpp" />
+    <ClCompile Include="Src\Application.cpp" />
+    <ClCompile Include="Src\Buffer.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\CursorManager.cpp" />
+    <ClCompile Include="Src\DWriteFont.cpp" />
+    <ClCompile Include="Src\DX11\BlendStateManager.cpp" />
+    <ClCompile Include="Src\DX11\BufferManager.cpp" />
+    <ClCompile Include="Src\DX11\MultiPoint.cpp" />
+    <ClCompile Include="Src\DX11\RasterizerManager.cpp" />
+    <ClCompile Include="Src\DX11\RenderDevice_DX11.cpp" />
+    <ClCompile Include="Src\DX11\samplerManager.cpp" />
+    <ClCompile Include="Src\DX11\shader.cpp" />
+    <ClCompile Include="Src\DX11\shaderManager.cpp" />
+    <ClCompile Include="Src\DX11\TextureDX11.cpp" />
+    <ClCompile Include="Src\DX11\VertexBuffer.cpp" />
+    <ClCompile Include="Src\DX11\VertexLayoutManager.cpp" />
+    <ClCompile Include="Src\font.cpp" />
+    <ClCompile Include="Src\fontManager.cpp" />
+    <ClCompile Include="Src\GameStateManger.cpp" />
+    <ClCompile Include="Src\GuiManager.cpp" />
+    <ClCompile Include="Src\GUI\button.cpp" />
+    <ClCompile Include="Src\GUI\CheckBox.cpp" />
+    <ClCompile Include="Src\GUI\control.cpp" />
+    <ClCompile Include="Src\GUI\EditBox.cpp" />
+    <ClCompile Include="Src\GUI\form.cpp" />
+    <ClCompile Include="Src\GUI\ListCtrl.cpp" />
+    <ClCompile Include="Src\GUI\ProgressCtrl.cpp" />
+    <ClCompile Include="Src\GUI\Skin.cpp" />
+    <ClCompile Include="Src\GUI\Slider.cpp" />
+    <ClCompile Include="Src\GUI\Static.cpp" />
+    <ClCompile Include="Src\Image.cpp" />
+    <ClCompile Include="Src\IState.cpp" />
+    <ClCompile Include="Src\LibGraphics.cpp" />
+    <ClCompile Include="Src\math.cpp" />
+    <ClCompile Include="Src\RenderDevice.cpp" />
+    <ClCompile Include="Src\RenderLayer.cpp" />
+    <ClCompile Include="Src\RenderTexture.cpp" />
+    <ClCompile Include="Src\ResLoaderThread.cpp" />
+    <ClCompile Include="Src\ResManager.cpp" />
+    <ClCompile Include="Src\Sprite.cpp" />
+    <ClCompile Include="Src\stringFormat.cpp" />
+    <ClCompile Include="Src\TextureFont.cpp" />
+    <ClCompile Include="Src\TextureWraper.cpp" />
+    <ClCompile Include="Src\WinGameApp.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
